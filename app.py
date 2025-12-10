@@ -43,7 +43,7 @@ def analyze_sentiment(input_data: TextInput):
             "subjectivity": round(subjectivity,2),
             "label": label,
             "meta": {
-                "processing_time": process_time
+                "processing_time in ms": process_time
             }
         }
     except Exception as e:
